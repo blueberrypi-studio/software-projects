@@ -2,7 +2,12 @@
 venv/
 
 # Exclude all __pycache__s from github repo
-__pycache__
+*__pycache__/
 
 # Exclude all example data from github repo
 data/
+
+#exclude all data models
+*.pth
+
+*.txt
